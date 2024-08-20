@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+.container {
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: lightblue;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center;
+}
+
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+.changed {
+    background-color: lightcoral;
+    border-color: #900;
+}
+
+.changed-button {
+    background-color: #333;
+    color: white;
+}
